@@ -1,0 +1,54 @@
+*{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: row-reverse ;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+}
+.detail{
+margin: 0%;
+padding: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.detail p{
+    margin-top: 0%;
+    font-weight: 100;
+}
+
+.profile img{
+    height: 300px;
+    border: 0.5px black solid;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.portfolio img :hover{
+    
+}
+
+.portfolio{
+   
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.discription p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
